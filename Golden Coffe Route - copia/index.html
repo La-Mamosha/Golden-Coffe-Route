@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Coffee Golden Route</title>
+</head>
+    <body>
+        <header>
+            <!-- .container-giro y se crea el con la clase-->
+            <div class="container-hero">
+                <div class="container hero">
+                    <div class="customer-support">
+                        <i class="fa-solid fa-headset"></i>
+                        <div class="content-customer-support">
+                            <span class="text">Soporte al cliente</span>
+                            <span class="number">9-1234-5678</span>
+                        </div>
+                    </div>
+
+                    <div class="container-logo">
+                        <i class="fa-solid fa-mug-hot"></i>
+                        <!-- / raiz de la pagina principal -->
+                        <h1 class="logo"><a href="/">Coffee Golden Route</a></h1>
+                    </div>
+                    <div class="container-user">
+                        <i class="fa-solid fa-user"></i>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <div class="content-shopping-cart">
+                            <span class="text">Shopping Cart</span>
+                            <span class="number">(0)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-navcoffe">
+                <nav class="nav-coffe container">
+                    <i class="fa-solid fa-bars"></i>
+                    <ul class="menu">
+                        <!--(li>a[href="#"])*6 multiplica por 6 lineas de li y a [] Atributo d ela etiqueta-->
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Ofertas</a></li>
+                        <li><a href="#">Café</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Frases del día</a></li>
+                        <li><a href="#">Reseña</a></li>
+                        <li><a href="#">Nosotros</a></li>
+                    </ul>
+                    
+                    <form class="search-form">
+                        <input type="search" placeholder="Buscar...">
+                        <button class="btn-search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Imagen de presetacion -->
+        <section class="banner">
+            <div class="content-banner">
+                <p>Sumérgete en un viaje por el corazón de la cultura del café colombiano, donde la pasión y la tradición chileno-colombianas se fusionan con la innovación, y cada taza cuenta una historia única.</p>
+                <h2>100% Natural <br> Café Colombian@</h2>
+                <a href="#">Más información</a>
+            </div>
+        </section>
+
+        <!-- IRA CASI TODO LA PAGINA -->
+
+        <!-- OFERTAS -->
+        <main class="main-content">
+            <section class="container container-features">
+                <div class="card-feature">
+                    <i class="fa-solid fa-plane-up"></i>
+                    <div class="feature-content">
+                        <span>Envio gratis solo Región Metropolitana</span>
+                        <p>En pedido superior a $29.990</p>
+                    </div>
+                </div>
+                <div class="card-feature">
+                    <i class="fa-solid fa-wallet"></i>
+                    <div class="feature-content">
+                        <span>Contrarembolso</span>
+                        <p>100% garantía de devolución de dinero</p>
+                    </div>
+                </div>
+                <div class="card-feature">
+                    <i class="fa-solid fa-gift"></i>
+                    <div class="feature-content">
+                        <span>Tarjeta de regalo especial</span>
+                        <p>Ofrecemos bonos especiales con regalo</p>
+                    </div>
+                </div>
+                <div class="card-feature">
+                    <i class="fa-solid fa-headset"></i>
+                    <div class="feature-content">
+                        <span>Servicio al cliente 24/7</span>
+                        <p>Contactanos al 9-1234-5678</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--Categorias -->
+            <section class="container top-categories">
+                <h3 class="heading-1">Categorías</h3>
+                <div class="container-categories">
+                    <div class="card-category category-molido">
+                        <p>Café Molido</p>
+                        <span>Ver más</span>
+                    </div>
+                    <div class="card-category category-grano">
+                        <p>Café Grano</p>
+                        <span>Ver más</span>
+                    </div>
+                    <div class="card-category category-variedad">
+                        <p>Mix Variedad</p>
+                        <span>Ver más</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PRODUCTOS  -->
+            <section class="container top-products">
+                <h3 class="heading-1">Top Products</h3>
+
+                <div class="container-optios">
+                    <span class="active">Destacados</span>
+                    <span>Más recientes</span>
+                    <span>Lo más vendido</span>
+                </div>
+
+                
+                <div class="container-products">
+                    <!-- Producto 1 -->
+                    <div class="card-product">
+                        <div class="container-img">
+                            <img src="Images/otrasPresentaciones/taza/1.png" alt="Cafe molido">
+                            <span class="discount">-5%</span>
+                            <div class="button-group">
+                                <span>
+                                    <i class="fa-regular fa-eye"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-heart"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-code-compare"></i>
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <!-- CONTENIDO DEL PRODUCTO -->
+                        <div class="content-card-product">
+                            <div class="stars"> <!--Estrellas -->
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <h4>Café Molido</h4>
+                            <span class="add-cart">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </span>
+                            <p class="price">$8.990 <span>$12.990</span></p>
+                        </div>
+                    </div>
+
+                    <!-- Producto 2 -->
+                    <div class="card-product">
+                        <div class="container-img">
+                            <img src="Images/otrasPresentaciones/vaso/2.png" alt="Cafe Grano">
+                            <span class="discount">-3%</span>
+                            <div class="button-group">
+                                <span>
+                                    <i class="fa-regular fa-eye"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-heart"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-code-compare"></i>
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <!-- CONTENIDO DEL PRODUCTO -->
+                        <div class="content-card-product">
+                            <div class="stars"> <!--Estrellas -->
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+
+                            <h4>Café Grano</h4>
+                            <span class="add-cart">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </span>
+                            <p class="price">$10.990 <span>$14.990</span></p>
+                        </div>
+                    </div>
+
+                    <!-- Producto 3 -->
+                    <div class="card-product">
+                        <div class="container-img">
+                            <img src="Images/otrasPresentaciones/taza/3.png" alt="Mix Cafe">
+                            <span class="discount">-2%</span>
+                            <div class="button-group">
+                                <span>
+                                    <i class="fa-regular fa-eye"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-heart"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-code-compare"></i>
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <!-- CONTENIDO DEL PRODUCTO -->
+                        <div class="content-card-product">
+                            <div class="stars"> <!--Estrellas -->
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <h4>Mix Café</h4>
+                            <span class="add-cart">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </span>
+                            <p class="price">$8.990 <span>$12.990</span></p>
+                        </div>
+                    </div> 
+
+                    <!-- Producto 4 -->
+                    <div class="card-product">
+                        <div class="container-img">
+                            <img src="Images/otrasPresentaciones/vaso/4.png" alt="Cafe variedad">
+                            <span class="discount">-7%</span>
+                            <div class="button-group">
+                                <span>
+                                    <i class="fa-regular fa-eye"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-heart"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-code-compare"></i>
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <!-- CONTENIDO DEL PRODUCTO -->
+                        <div class="content-card-product">
+                            <div class="stars"> <!--Estrellas -->
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+
+                            <h4>Otras Variedades</h4>
+                            <span class="add-cart">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </span>
+                            <p class="price">$14.990 <span>$18.990</span></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- GALLERIA -->
+            <section class="gallery">
+                <img src="Images/galerry/1.jfif" alt="gallery img 1" class="gallery-img-1">
+                <img src="Images/galerry/2.jpeg" alt="gallery img 2" class="gallery-img-2">
+                <img src="Images/galerry/3.jpeg" alt="gallery img 3" class="gallery-img-3">
+                <img src="Images/galerry/4.jpeg" alt="gallery img 4" class="gallery-img-4">
+                <img src="Images/galerry/5.jpeg" alt="gallery img 5" class="gallery-img-5">
+            </section>
+
+            <!-- Especialidad del día -->
+            <section class="container specials">
+                <h3 class="heading-1">Especialidad del día</h3>
+
+
+                <div class="container-products">
+                    <!-- Producto 1 -->
+                    <div class="card-product">
+                        <div class="container-img">
+                            <img src="Images/especialidad/capuchino/1.jfif" alt="Capuchino">
+                            <span class="discount">-2%</span>
+                            <div class="button-group">
+                                <span>
+                                    <i class="fa-regular fa-eye"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-heart"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-code-compare"></i>
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <!-- CONTENIDO DEL PRODUCTO -->
+                        <div class="content-card-product">
+                            <div class="stars"> <!--Estrellas -->
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <h4>Capuchino</h4>
+                            <span class="add-cart">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </span>
+                            <p class="price">$6.990 <span>$8.990</span></p>
+                        </div>
+                    </div>
+
+                    <div class="card-product">
+                        <div class="container-img">
+                            <img src="Images/especialidad/latte/1.jfif" alt="Cafe latte">
+                            <span class="discount">-3%</span>
+                            <div class="button-group">
+                                <span>
+                                    <i class="fa-regular fa-eye"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-heart"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-code-compare"></i>
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <!-- CONTENIDO DEL PRODUCTO -->
+                        <div class="content-card-product">
+                            <div class="stars"> <!--Estrellas -->
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+
+                            <h4>Café Latte</h4>
+                            <span class="add-cart">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </span>
+                            <p class="price">$8.990 <span>$9.990</span></p>
+                        </div>
+                    </div>
+
+                    <div class="card-product">
+                        <div class="container-img">
+                            <img src="Images/especialidad/mocaccino/1.jfif" alt="Mocaccino">
+                            <span class="discount">-4%</span>
+                            <div class="button-group">
+                                <span>
+                                    <i class="fa-regular fa-eye"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-heart"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-code-compare"></i>
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <!-- CONTENIDO DEL PRODUCTO -->
+                        <div class="content-card-product">
+                            <div class="stars"> <!--Estrellas -->
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <h4>Mocaccino</h4>
+                            <span class="add-cart">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </span>
+                            <p class="price">$4.990 <span>$8.990</span></p>
+                        </div>
+                    </div>
+
+                    <div class="card-product">
+                        <div class="container-img">
+                            <img src="Images/especialidad/vienesa/1.jfif" alt="vienesa">
+                            <span class="discount">-5%</span>
+                            <div class="button-group">
+                                <span>
+                                    <i class="fa-regular fa-eye"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-heart"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-code-compare"></i>
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <!-- CONTENIDO DEL PRODUCTO -->
+                        <div class="content-card-product">
+                            <div class="stars"> <!--Estrellas -->
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+
+                            <h4>Vienesa</h4>
+                            <span class="add-cart">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </span>
+                            <p class="price">$5.990 <span>$9.990</span></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- BLOGS -->
+            <!-- **********************************CONTENIDO DEL BLOG********************************** -->
+            <section class="container blogs">
+                <h3 class="heading-1">Blogs</h3>
+
+                <div class="container-blogs">
+                    <div class="card-blog">
+                        <div class="container-img">
+                            <img src="Images/blog/2.jfif" alt="imagen blog 1">
+                            <div class="button-group-blog">
+                                <span>
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-link"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        
+                        <div class="content-blog">
+                            <h4>¿Café Molido o Grano?</h4>
+                            <span>25 de abril, 2024</span>
+                            <p>Una de las decisiones más importantes a la hora de preparar tu taza de café perfecta es elegir entre café molido y café en grano. Ambas opciones tienen sus propias ventajas y características distintivas que influyen en el sabor y la experiencia del café. ¿Prefieres la conveniencia del café molido o la frescura y versatilidad del café en grano? Exploraremos las diferencias entre estos dos tipos de café y cómo cada uno puede influir en tu rutina matutina de café.</p>
+                            <div class="btn-read-more">Leer más</div>
+                        </div>
+                    </div>
+
+                    <div class="card-blog">
+                        <div class="container-img">
+                            <img src="Images/blog/3.jfif" alt="imagen blog 2">
+                            <div class="button-group-blog">
+                                <span>
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-link"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- CONTENIDO DEL BLOG -->
+                        <div class="content-blog">
+                            <h4>Beneficios para la Salud del Café</h4>
+                            <span>28 de abril, 2024</span>
+                            <p>El café no solo es una deliciosa bebida, sino que también tiene numerosos beneficios para la salud. Desde aumentar la energía y mejorar la concentración hasta proporcionar antioxidantes y reducir el riesgo de ciertas enfermedades, el café puede tener un impacto positivo en tu bienestar general. Descubre los diferentes beneficios para la salud que ofrece el café y cómo puedes disfrutarlo de manera consciente y saludable.</p>
+                            <div class="btn-read-more">Leer más</div>
+                        </div>
+                    </div>
+
+                    <div class="card-blog">
+                        <div class="container-img">
+                            <img src="Images/blog/1.jfif" alt="imagen blog 3">
+                            <div class="button-group-blog">
+                                <span>
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-link"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- CONTENIDO DEL BLOG -->
+                        <div class="content-blog">
+                            <h4>El Arte de Preparar Café</h4>
+                            <span>2 de mayo, 2024</span>
+                            <p>Preparar la taza perfecta de café es todo un arte. Desde la elección de los granos y el método de preparación hasta la técnica de vertido y el proceso de degustación, hay muchos aspectos a considerar para obtener el mejor sabor y aroma en cada taza. Exploraremos diferentes métodos de preparación de café, consejos para mejorar tu técnica y cómo puedes convertirte en un verdadero experto en el arte de preparar café en casa.</p>
+                            <div class="btn-read-more">Leer más</div>
+                        </div>
+                    </div>
+
+                    <div class="card-blog">
+                        <div class="container-img">
+                            <img src="Images/blog/4.jfif" alt="imagen blog 4">
+                            <div class="button-group-blog">
+                                <span>
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-link"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- CONTENIDO DEL BLOG -->
+                        <div class="content-blog">
+                            <h4>Café alrededor del Mundo</h4>
+                            <span>6 de mayo, 2024</span>
+                            <p>El café es una bebida universal que se disfruta en todo el mundo, pero cada región tiene su propia cultura y tradiciones únicas en torno al café. Desde el espresso italiano hasta el café turco, pasando por el café filtrado escandinavo, hay una increíble diversidad de estilos y sabores de café en todo el mundo. Explora las diferentes formas en que se disfruta el café en diferentes culturas y cómo estas tradiciones han enriquecido la experiencia global del café.</p>
+                            <div class="btn-read-more">Leer más</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- *************************** FOOTER ********************************************** -->
+        <footer class="footer">
+            <div class="container container-footer">
+                <div class="menu-footer">
+                    <div class="contact-info">
+                        <p class="title-footer">Información de Contacto</p>
+                        <ul>
+                            <li>
+                                Dirección: Vicuña Mackena 1725, Santiago Centro
+                            </li>
+                            <li>Teléfono: 123-456-7890</li>
+                            <li>Fax: 55555300</li>
+                            <li>EmaiL: Goldencoffeeroute@gmail.com</li>
+                        </ul>
+                        <div class="social-icons">
+                            <span class="facebook">
+                                <i class="fa-brands fa-facebook"></i>
+                            </span>
+                            <span class="whatsapp">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </span>
+                            <span class="instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                            </span>
+                            <span class="tiktok">
+                                <i class="fa-brands fa-tiktok"></i>
+                            </span>
+                            <span class="youtube">
+                                <i class="fa-brands fa-youtube"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="information">
+                        <p class="title-footer">Información</p>
+                        <ul>
+                            <li><a href="#">Acerca de Nosotros</a></li>
+                            <li><a href="#">Información de envio</a></li>
+                            <li><a href="#">Politicas de Privacidad</a></li>
+                            <li><a href="#">Términos y condiciones</a></li>
+                            <li><a href="#">Contactános</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="my-account">
+                        <p class="title-footer">Mi cuenta</p>
+
+                        <ul>
+                            <li><a href="#">Mi cuenta</a></li>
+                            <li><a href="#">Historial de pedidos</a></li>
+                            <li><a href="#">Lista de deseos</a></li>
+                            <li><a href="#">Boletín</a></li>
+                            <li><a href="#">Reembolsos</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="newsletter">
+                        <p class="title-footer">Boletín informativo</p>
+
+                        <div class="content">
+                            <p>
+                                Suscribete a nuestro boletín informativo ahora y obtén las mejores ofertas y promociones.
+                            </p>
+                            <input type="email" placeholder="Ingresa el correo aquí...">
+                            <button>Suscríbete</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="copyright">
+                    <p>
+                        © 2022. Todos los derechos reservados. Diseñado por: <a href="#">Coffee Golden Route</a>
+                    </p>
+
+                    <img src="Images/pago/webpay-logo.png" alt="Pagos">
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Permite utilizar los incono de fontawesome-->
+        <script 
+            src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
+        </script>
+    </body>
+</html>
